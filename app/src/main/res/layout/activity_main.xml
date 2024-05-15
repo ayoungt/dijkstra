@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- 맵뷰 -->
+
+    <!-- 현재 위치를 나타내는 플로팅 버튼 -->
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+    <Spinner
+        android:id="@+id/spinnerStartLocation"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#400A4A9B"
+        android:entries="@array/room_start"
+        android:fontFamily="@font/bmdohyeon"
+        android:spinnerMode="dropdown" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <Spinner
+        android:id="@+id/spinnerDestinationLocation"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#400A4A9B"
+        android:entries="@array/room_destination"
+        android:fontFamily="@font/bmdohyeon"
+        android:spinnerMode="dropdown" />
+
+
+    <!-- 스피너 -->
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="129dp"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="#570A4A9B"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        tools:ignore="UnknownId" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- 다른 뷰 요소들 -->
+
+        <ImageButton
+            android:id="@+id/bt_search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#00EFEFEF"
+            android:foregroundTint="#4E2B2B"
+            app:srcCompat="@drawable/sesarch" />
+
+        <ImageButton
+            android:id="@+id/bt_searchOff"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/search_off" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

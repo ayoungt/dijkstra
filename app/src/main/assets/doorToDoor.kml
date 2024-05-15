@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2">
+<ns0:Document>
+    <ns0:Placemark>
+      <ns0:name>f1_2</ns0:name>
+      <ns0:description>설명: &lt;br&gt;level: &lt;br&gt;name: </ns0:description>
+      <ns0:styleUrl>#line-A52714-6425</ns0:styleUrl>
+      <ns0:ExtendedData>
+        <ns0:Data name="설명">
+          <ns0:value />
+        </ns0:Data>
+        <ns0:Data name="level">
+          <ns0:value />
+        </ns0:Data>
+        <ns0:Data name="name">
+          <ns0:value />
+        </ns0:Data>
+      </ns0:ExtendedData>
+      <ns0:LineString>
+        <ns0:tessellate>1</ns0:tessellate>
+        <ns0:coordinates>
+          126.6337673,37.3742394,0
+          126.633945,37.374432,0
+        </ns0:coordinates>
+      </ns0:LineString>
+    </ns0:Placemark>
+    <ns0:Placemark>
+          <ns0:name>f1_1</ns0:name>
+          <ns0:description>설명: &lt;br&gt;level: &lt;br&gt;name: </ns0:description>
+          <ns0:styleUrl>#line-A52714-5650</ns0:styleUrl>
+          <ns0:ExtendedData>
+            <ns0:Data name="설명">
+              <ns0:value />
+            </ns0:Data>
+            <ns0:Data name="level">
+              <ns0:value />
+            </ns0:Data>
+            <ns0:Data name="name">
+              <ns0:value />
+            </ns0:Data>
+          </ns0:ExtendedData>
+          <ns0:LineString>
+            <ns0:tessellate>1</ns0:tessellate>
+            <ns0:coordinates>
+              126.63337,37.3744495,0
+              126.6333316,37.3744735,0
+              126.6335518,37.3747013,0
+              126.6335903,37.3746773,0
+            </ns0:coordinates>
+          </ns0:LineString>
+        </ns0:Placemark>
+
+  </ns0:Document>
+  </ns0:kml>
